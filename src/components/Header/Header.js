@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import './Header.css';
 
 function Header() {
     const [show, setShow] = useState(true);
